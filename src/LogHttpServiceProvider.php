@@ -19,6 +19,6 @@ class LogHttpServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+        $this->app['router']->aliasMiddleware('log-http', InterceptMiddleware::class);
     }
 }
