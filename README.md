@@ -15,6 +15,14 @@ composer require shoesten-tag/log-http
 
 # How to use 
 
+Add middleware to your routes
+
+
+```php
+//Example
+Route::resource('/dashboard', DashboardController::class)->middleware('log-http');
+```
+
 ## Log the response within the method
 ```php
   #[Intercept(response: true)]
