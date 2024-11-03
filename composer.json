@@ -1,0 +1,42 @@
+{
+    "name": "shoesten-tag/log-http",
+    "description": "Log HTTP requests and responses in Laravel applications using PHP attributes",
+    "type": "package",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "logging",
+        "http",
+        "request-logging",
+        "response-logging",
+        "php-attributes",
+        "http-interceptor",
+        "api-logging",
+        "debug",
+        "monitoring",
+        "middleware"
+    ],
+    "authors": [
+        {
+            "name": "roes10",
+            "email": "didio50@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ShoestenTag\\LogHttp\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ShoestenTag\\LogHttp\\LogHttpServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.1"
+    }
+}
