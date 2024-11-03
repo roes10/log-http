@@ -10,7 +10,7 @@ use Attribute;
 final readonly class Intercept
 {
     public function __construct(
-        public bool $request = true,
+        public bool $request = false,
         public bool $response = false,
     ) {}
 }
