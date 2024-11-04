@@ -4,7 +4,7 @@ Log HTTP requests and responses in Laravel applications using PHP attributes.
 
 # How to install 
 ```php
-composer require shoesten-tag/log-http
+composer require shoesten-tag/log-http --dev
 ```
 # Notes
 * The default setting for both request and response logging is false. You can enable both by setting them to true or enable only one of them as needed.
