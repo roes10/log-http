@@ -7,7 +7,7 @@ namespace ShoestenTag\LogHttp\Attributes;
 use Attribute;
 
 #[Attribute(Attribute::TARGET_CLASS | Attribute::TARGET_METHOD)]
-final readonly class Intercept
+class Intercept
 {
     public function __construct(
         public bool $request = false,

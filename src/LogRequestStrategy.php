@@ -7,7 +7,7 @@ namespace ShoestenTag\LogHttp;
 use Illuminate\Support\Facades\Log;
 use ShoestenTag\LogHttp\Contracts\LogStrategy;
 
-final class LogRequestStrategy implements LogStrategy
+class LogRequestStrategy implements LogStrategy
 {
     public function log($data): void
     {

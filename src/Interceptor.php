@@ -10,7 +10,7 @@ use ReflectionException;
 use ShoestenTag\LogHttp\Attributes\Intercept;
 use ShoestenTag\LogHttp\Exceptions\InterceptorException;
 
-final class Interceptor
+class Interceptor
 {
 
     private function resolveAttributes(ReflectionClass $refClass, string $methodName): array
