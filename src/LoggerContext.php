@@ -6,7 +6,7 @@ namespace ShoestenTag\LogHttp;
 
 use ShoestenTag\LogHttp\Contracts\LogStrategy;
 
-final class LoggerContext
+class LoggerContext
 {
     private ?LogStrategy $logStrategy = null;
 
