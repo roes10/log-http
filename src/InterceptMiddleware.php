@@ -10,7 +10,7 @@ use Symfony\Component\HttpFoundation\Response;
 use Illuminate\Support\Facades\Log;
 use ShoestenTag\LogHttp\Exceptions\InterceptorException;
 
-final readonly class InterceptMiddleware
+class InterceptMiddleware
 {
     public function __construct(private Interceptor $interceptor) {}
 
